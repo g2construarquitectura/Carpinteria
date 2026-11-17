@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G2 Construcción y Arquitectura S.A.S</title>
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- BANNER con logo y título -->
+    <header class="banner">
+        <div class="banner-left">
+            <img class="banner-logo" src="https://i.postimg.cc/D0c0Gzzc/LOGO-G2-(2).png" alt="Logo G2 Construcción y Arquitectura">
+            <div class="banner-title">
+                G2 Construcción y Arquitectura S.A.S
+                <small>Fabricación de muebles a la medida</small>
+            </div>
+        </div>
+        <div class="banner-icons">
+            <i class="fas fa-user-tie"></i>
+            <i class="fas fa-hard-hat"></i>
+        </div>
+    </header>
+
+    <!-- DASHBOARD PRINCIPAL -->
+    <div class="dashboard">
+        <!-- MENÚ LATERAL CON LAS SECCIONES -->
+        <aside class="sections-menu">
+            <h3>MENÚ</h3>
+            <ul class="section-list" id="sectionList">
+                <li><button class="section-btn active" data-section="inicio"><i class="fas fa-home"></i> Inicio</button></li>
+                <li><button class="section-btn" data-section="nosotros"><i class="fas fa-users"></i> Nosotros</button></li>
+                <li><button class="section-btn" data-section="servicios"><i class="fas fa-tools"></i> Servicios</button></li>
+                <li><button class="section-btn" data-section="catalogos"><i class="fas fa-palette"></i> Catálogos</button></li>
+                <li><button class="section-btn" data-section="disenos"><i class="fas fa-drafting-compass"></i> Diseños</button></li>
+                <li><button class="section-btn" data-section="presupuesto"><i class="fas fa-calculator"></i> Presupuesto</button></li>
+                <li><button class="section-btn" data-section="contacto"><i class="fas fa-envelope"></i> Contacto</button></li>
+            </ul>
+        </aside>
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <main class="main-content">
+
+            <!-- ===== SECCIÓN: INICIO ===== -->
+            <section class="page-section active" id="inicio">
+                <div class="sections-grid">
+                    <div class="section-card">
+                        <div class="cabecera-card">
+                            <i class="fas fa-home"></i>
+                            <h3>Inicio</h3>
+                        </div>
+                        <p>Somos una empresa especializada en el diseño, fabricación y comercialización de mobiliario, así como en la ejecución de obras civiles y adecuaciones de espacios interiores. Nos enfocamos en el desarrollo de soluciones integrales de interiorismo para entornos residenciales, comerciales y corporativos, creando espacios que destacan por su funcionalidad, estética, innovación y durabilidad.</p>
+                        <p>Nos destacamos en el sector de la carpintería y el mobiliario a medida en Bucaramanga, ofreciendo propuestas personalizadas que responden a las necesidades, expectativas y estilo de cada cliente. Nuestra experiencia, compromiso con la calidad y atención al detalle nos permiten desarrollar proyectos con altos estándares, cuidando cada etapa del proceso, desde la conceptualización y el diseño hasta la fabricación e instalación. Trabajamos con el propósito de transformar ideas en espacios únicos, materializando la visión de nuestros clientes mediante diseños innovadores, soluciones funcionales y acabados de excelente calidad.</p>
+                        <p>Estamos ubicados en Bucaramanga, Santander, Colombia, desde donde proyectamos y desarrollamos cada uno de nuestros trabajos con pasión, profesionalismo y excelencia.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== SECCIÓN: NOSOTROS ===== -->
+            <section class="page-section" id="nosotros">
+                <div class="nosotros-wrapper">
+                    <div class="section-card">
+                        <div class="cabecera-card">
+                            <i class="fas fa-users"></i>
+                            <h3>Nosotros</h3>
+                        </div>
+                        <p>Transformamos ideas en espacios extraordinarios. Somos una empresa especializada en el diseño y fabricación de mobiliario y el desarrollo de obras civiles para interiores, comprometida con la excelencia en cada proyecto. Trabajamos con materiales de alta calidad, diseños innovadores y soluciones a la medida, para crear espacios que combinan estética, funcionalidad y durabilidad. Acompañamos a cada cliente con asesoría personalizada, convirtiendo sus ideas y expectativas en proyectos únicos que superan sus expectativas.</p>
+                    </div>
+
+                    <div class="mision-vision-wrapper">
+                        <div class="section-card">
+                            <div class="cabecera-card">
+                                <i class="fas fa-award"></i>
+                                <h3>Misión</h3>
+                            </div>
+                            <p>Transformar espacios con muebles funcionales y estéticos, utilizando materiales de alta calidad y técnicas de carpintería tradicional combinadas con tecnología moderna.</p>
+                        </div>
+
+                        <div class="section-card">
+                            <div class="cabecera-card">
+                                <i class="fas fa-gem"></i>
+                                <h3>Visión</h3>
+                            </div>
+                            <p>Nos guiamos por la honestidad, el compromiso, la puntualidad y la pasión por el detalle en cada uno de nuestros proyectos.</p>
+                            <p>Buscamos siempre la satisfacción total de nuestros clientes, construyendo relaciones de confianza a largo plazo.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== SECCIÓN: SERVICIOS ===== -->
+            <section class="page-section" id="servicios">
+                <div class="servicios-grid">
+                    <div class="servicios-columna">
+                        <div class="section-card">
+                            <div class="cabecera-card">
+                                <i class="fas fa-door-open"></i>
+                                <h3>Puertas</h3>
+                            </div>
+                            <p>Fabricación e instalación de puertas hechas en madera y/o melamina para interiores y exteriores.</p>
+                        </div>
+                        <div class="section-card">
+                            <div class="cabecera-card">
+                                <i class="fas fa-couch"></i>
+                                <h3>Muebles de sala</h3>
+                            </div>
+                            <p>Centros de entretenimiento, libreros, muebles para TV y más mobiliario a la medida.</p>
+                        </div>
+                        <div class="section-card">
+                            <div class="cabecera-card">
+                                <i class="fas fa-building"></i>
+                                <h3>Proyectos comerciales</h3>
+                            </div>
+                            <p>Mobiliario para oficinas, tiendas, restaurantes y espacios corporativos.</p>
+                        </div>
+                    </div>
+                    <div class="servicios-columna">
+                        <div class="section-card">
+                            <div class="cabecera-card">
+                                <i class="fas fa-bed"></i>
+                                <h3>Closets y vestidores</h3>
+                            </div>
+                            <p>Optimización de espacios con diseños personalizados y acabados de primera calidad.</p>
+                        </div>
+                        <div class="section-card">
+                            <div class="cabecera-card">
+                                <i class="fas fa-utensils"></i>
+                                <h3>Cocinas integrales</h3>
+                            </div>
+                            <p>Diseño y fabricación de cocinas modernas y funcionales a la medida de tu espacio.</p>
+                        </div>
+                        <div class="section-card">
+                            <div class="cabecera-card">
+                                <i class="fas fa-tools"></i>
+                                <h3>Remodelaciones</h3>
+                            </div>
+                            <p>Adecuación de espacios con carpintería fina y acabados profesionales.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== SECCIÓN: CATÁLOGOS (ACORDEÓN) ===== -->
+            <section class="page-section" id="catalogos">
+                <div class="disenos-acordeon">
+                    <!-- Subsección: Catálogo Completo -->
+                    <div class="diseno-item">
+                        <button class="diseno-titulo">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Catálogo Completo</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="diseno-contenido">
+                            <div class="section-card catalogo-completo">
+                                <p>Sube o arrastra el catálogo completo en PDF para que tus clientes puedan descargarlo.</p>
+                                <div class="upload-zone" id="uploadZoneCatalogo">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                    <span>Arrastra tu PDF aquí o haz clic para seleccionar</span>
+                                    <input type="file" id="fileInputCatalogo" accept=".pdf" hidden>
+                                </div>
+                                <div class="doc-list" id="docListCatalogo"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subsección: Catálogos de Melamina -->
+                    <div class="diseno-item">
+                        <button class="diseno-titulo">
+                            <i class="fas fa-palette"></i>
+                            <span>Catálogos de Melamina</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="diseno-contenido">
+                            <div class="section-card">
+                                <p>Colores y acabados disponibles. Haz clic en la imagen para subir una foto y edita el nombre.</p>
+                                
+                                <div id="contenedor-melaminas">
+                                    <!-- Primadera -->
+                                    <div class="categoria-seccion">
+                                        <div class="categoria-header">
+                                            <h4>Primadera</h4>
+                                            <button class="btn-add" data-target="grid-primadera" title="Añadir recuadro">+</button>
+                                        </div>
+                                        <div class="melamina-grid" id="grid-primadera"></div>
+                                    </div>
+
+                                    <!-- MadeOfi -->
+                                    <div class="categoria-seccion">
+                                        <div class="categoria-header">
+                                            <h4>MadeOfi</h4>
+                                            <button class="btn-add" data-target="grid-madeofi" title="Añadir recuadro">+</button>
+                                        </div>
+                                        <div class="melamina-grid" id="grid-madeofi"></div>
+                                    </div>
+
+                                    <!-- Tableros Hispanos -->
+                                    <div class="categoria-seccion">
+                                        <div class="categoria-header">
+                                            <h4>Tableros Hispanos</h4>
+                                            <button class="btn-add" data-target="grid-tablareshispanos" title="Añadir recuadro">+</button>
+                                        </div>
+                                        <div class="melamina-grid" id="grid-tablareshispanos"></div>
+                                    </div>
+
+                                    <!-- Vesto -->
+                                    <div class="categoria-seccion">
+                                        <div class="categoria-header">
+                                            <h4>Vesto</h4>
+                                            <button class="btn-add" data-target="grid-vesto" title="Añadir recuadro">+</button>
+                                        </div>
+                                        <div class="melamina-grid" id="grid-vesto"></div>
+                                    </div>
+
+                                    <!-- Duratex -->
+                                    <div class="categoria-seccion">
+                                        <div class="categoria-header">
+                                            <h4>Duratex</h4>
+                                            <button class="btn-add" data-target="grid-duratex" title="Añadir recuadro">+</button>
+                                        </div>
+                                        <div class="melamina-grid" id="grid-duratex"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subsección: Catálogo de Herrajes -->
+                    <div class="diseno-item">
+                        <button class="diseno-titulo">
+                            <i class="fas fa-cogs"></i>
+                            <span>Catálogo de Herrajes</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="diseno-contenido">
+                            <div class="section-card">
+                                <p>Gestión de herrajes y accesorios.</p>
+                                <div class="categoria-seccion">
+                                    <div class="categoria-header">
+                                        <h4>Herrajes Generales</h4>
+                                        <button class="btn-add" data-target="grid-herrajes" title="Añadir recuadro">+</button>
+                                    </div>
+                                    <div class="melamina-grid" id="grid-herrajes"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== SECCIÓN: DISEÑOS ===== -->
+            <section class="page-section" id="disenos">
+                <div class="disenos-acordeon">
+                    <div class="diseno-item">
+                        <button class="diseno-titulo">
+                            <i class="fas fa-drafting-compass"></i>
+                            <span>Diseños</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="diseno-contenido">
+                            <div class="section-card">
+                                <p>En esta sección tus clientes podrán consultar los diseños, planos y renders de los proyectos realizados.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="diseno-item">
+                        <button class="diseno-titulo">
+                            <i class="fas fa-image"></i>
+                            <span>Renders 3D</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="diseno-contenido">
+                            <div class="section-card">
+                                <p>Visualización fotorrealista de los proyectos antes de su fabricación.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="diseno-item">
+                        <button class="diseno-titulo">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>Planos técnicos</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="diseno-contenido">
+                            <div class="section-card">
+                                <p>Medidas y especificaciones detalladas de cada mueble o proyecto.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== SECCIÓN: PRESUPUESTO ===== -->
+            <section class="page-section" id="presupuesto">
+                <div class="sections-grid">
+                    <div class="section-card">
+                        <div class="cabecera-card">
+                            <i class="fas fa-calculator"></i>
+                            <h3>Presupuesto</h3>
+                        </div>
+                        <p>Solicita o consulta los presupuestos detallados de cada proyecto. Sube los documentos en formato PDF o Excel para que tus clientes puedan revisarlos.</p>
+                    </div>
+                    <div class="section-card">
+                        <div class="cabecera-card">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                            <h3>Cotizaciones</h3>
+                        </div>
+                        <p>Cada presupuesto incluye materiales, mano de obra y tiempos de entrega estimados.</p>
+                    </div>
+                </div>
+                <div class="upload-panel">
+                    <div class="upload-info">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <div class="upload-text">
+                            <h4>Subir documentos para clientes</h4>
+                            <p>Catálogos, diseños, presupuestos, etc.</p>
+                        </div>
+                    </div>
+                    <div class="upload-controls">
+                        <div class="file-input-wrapper">
+                            <input type="file" id="fileInput" multiple>
+                            <button class="btn-upload"><i class="fas fa-plus-circle"></i> Seleccionar archivos</button>
+                        </div>
+                    </div>
+                    <div class="doc-list" id="docList"></div>
+                </div>
+            </section>
+
+            <!-- ===== SECCIÓN: CONTACTO ===== -->
+            <section class="page-section" id="contacto">
+                <div class="sections-grid">
+                    <div class="section-card">
+                        <div class="cabecera-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Contacto</h3>
+                        </div>
+                        <p>Estamos disponibles para atender tus consultas y cotizaciones. Escríbenos o llámanos.</p>
+                    </div>
+                    <div class="section-card">
+                        <div class="cabecera-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <h3>Teléfono</h3>
+                        </div>
+                        <p>+57 (601) 123 4567</p>
+                    </div>
+                    <div class="section-card">
+                        <div class="cabecera-card">
+                            <i class="fas fa-envelope-open-text"></i>
+                            <h3>Correo</h3>
+                        </div>
+                        <p>contacto@g2construccion.com</p>
+                    </div>
+                    <div class="section-card">
+                        <div class="cabecera-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Dirección</h3>
+                        </div>
+                        <p>Bogotá D.C., Colombia</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="footer-note">
+                <i class="fas fa-lock"></i> Los documentos subidos son visibles para los clientes autorizados.
+            </div>
+        </main>
+    </div>
+
+    <script>
+        (function() {
+            // ========== NAVEGACIÓN ENTRE SECCIONES ==========
+            const sectionBtns = document.querySelectorAll('.section-btn');
+            const pageSections = document.querySelectorAll('.page-section');
+
+            function showSection(sectionId) {
+                pageSections.forEach(sec => sec.classList.remove('active'));
+                const target = document.getElementById(sectionId);
+                if (target) target.classList.add('active');
+                sectionBtns.forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.section === sectionId);
+                });
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+
+            sectionBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    showSection(this.dataset.section);
+                });
+            });
+
+            // ========== SUBIDA DE DOCUMENTOS (PRESUPUESTO) ==========
+            const fileInput = document.getElementById('fileInput');
+            const docList = document.getElementById('docList');
+            let uploadedFiles = [];
+
+            function renderDocuments() {
+                docList.innerHTML = '';
+                if (uploadedFiles.length === 0) {
+                    const emptyMsg = document.createElement('span');
+                    emptyMsg.style.color = '#b9aa9b';
+                    emptyMsg.style.fontSize = '0.85rem';
+                    emptyMsg.style.fontStyle = 'italic';
+                    emptyMsg.innerHTML = '<i class="fas fa-file-alt"></i> No hay documentos subidos aún.';
+                    docList.appendChild(emptyMsg);
+                    return;
+                }
+                uploadedFiles.forEach((file, index) => {
+                    const badge = document.createElement('div');
+                    badge.className = 'doc-badge';
+                    let iconClass = 'fa-file';
+                    if (file.name.endsWith('.pdf')) iconClass = 'fa-file-pdf';
+                    else if (/\.(jpg|jpeg|png|gif)$/i.test(file.name)) iconClass = 'fa-file-image';
+                    else if (/\.(doc|docx)$/i.test(file.name)) iconClass = 'fa-file-word';
+                    else if (/\.(xls|xlsx)$/i.test(file.name)) iconClass = 'fa-file-excel';
+
+                    badge.innerHTML = `
+                        <i class="fas ${iconClass}"></i>
+                        <span>${file.name.length > 22 ? file.name.substring(0, 20) + '...' : file.name}</span>
+                        <i class="fas fa-times" data-index="${index}" title="Eliminar documento"></i>
+                    `;
+                    docList.appendChild(badge);
+                });
+                document.querySelectorAll('.doc-badge .fa-times').forEach(icon => {
+                    icon.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const index = parseInt(this.dataset.index);
+                        uploadedFiles.splice(index, 1);
+                        renderDocuments();
+                    });
+                });
+            }
+
+            fileInput.addEventListener('change', function(e) {
+                const files = e.target.files;
+                if (files.length === 0) return;
+                for (let i = 0; i < files.length; i++) {
+                    const exists = uploadedFiles.some(f => f.name === files[i].name && f.size === files[i].size);
+                    if (!exists) uploadedFiles.push({ name: files[i].name, size: files[i].size, type: files[i].type });
+                }
+                renderDocuments();
+                fileInput.value = '';
+            });
+
+            renderDocuments();
+
+            const uploadPanel = document.querySelector('.upload-panel');
+            uploadPanel.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadPanel.style.backgroundColor = '#faf6f1';
+                uploadPanel.style.border = '2px dashed #644225';
+            });
+            uploadPanel.addEventListener('dragleave', (e) => {
+                e.preventDefault();
+                uploadPanel.style.backgroundColor = 'white';
+                uploadPanel.style.border = '1px solid #e3d9cf';
+            });
+            uploadPanel.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadPanel.style.backgroundColor = 'white';
+                uploadPanel.style.border = '1px solid #e3d9cf';
+                const files = e.dataTransfer.files;
+                if (files.length > 0) {
+                    for (let i = 0; i < files.length; i++) {
+                        const exists = uploadedFiles.some(f => f.name === files[i].name && f.size === files[i].size);
+                        if (!exists) uploadedFiles.push({ name: files[i].name, size: files[i].size, type: files[i].type });
+                    }
+                    renderDocuments();
+                }
+            });
+
+            // ========== CATÁLOGO COMPLETO: SUBIDA DE PDF ==========
+            const uploadZone = document.getElementById('uploadZoneCatalogo');
+            const fileInputCatalogo = document.getElementById('fileInputCatalogo');
+            const docListCatalogo = document.getElementById('docListCatalogo');
+            let catalogoFile = null;
+
+            uploadZone.addEventListener('click', () => fileInputCatalogo.click());
+            uploadZone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadZone.classList.add('dragover');
+            });
+            uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('dragover'));
+            uploadZone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadZone.classList.remove('dragover');
+                const file = e.dataTransfer.files[0];
+                if (file && file.type === 'application/pdf') {
+                    catalogoFile = file;
+                    renderCatalogo();
+                } else {
+                    alert('Por favor, sube un archivo PDF.');
+                }
+            });
+
+            fileInputCatalogo.addEventListener('change', function(e) {
+                const file = e.target.files[0];
+                if (file && file.type === 'application/pdf') {
+                    catalogoFile = file;
+                    renderCatalogo();
+                }
+                fileInputCatalogo.value = '';
+            });
+
+            function renderCatalogo() {
+                docListCatalogo.innerHTML = '';
+                if (catalogoFile) {
+                    const badge = document.createElement('div');
+                    badge.className = 'doc-badge';
+                    badge.innerHTML = `
+                        <i class="fas fa-file-pdf"></i>
+                        <span>${catalogoFile.name}</span>
+                        <i class="fas fa-times" title="Eliminar documento"></i>
+                    `;
+                    docListCatalogo.appendChild(badge);
+                    badge.querySelector('.fa-times').addEventListener('click', () => {
+                        catalogoFile = null;
+                        renderCatalogo();
+                    });
+                }
+            }
+
+            // ========== CATÁLOGOS DE MELAMINA DINÁMICOS ==========
+            function crearTarjetaMelamina() {
+                const card = document.createElement('div');
+                card.className = 'melamina-card';
+                card.innerHTML = `
+                    <button class="btn-delete" title="Eliminar recuadro">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 6L6 18M6 6l12 12" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="melamina-imagen">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <input type="text" class="melamina-nombre" value="NUEVO" placeholder="Nombre" />
+                    <input type="file" class="melamina-file-input" accept="image/*" hidden>
+                `;
+                
+                const divImagen = card.querySelector('.melamina-imagen');
+                const fileInput = card.querySelector('.melamina-file-input');
+                
+                divImagen.addEventListener('click', () => fileInput.click());
+                
+                fileInput.addEventListener('change', function(e) {
+                    const file = e.target.files[0];
+                    if (file) {
+                        const reader = new FileReader();
+                        reader.onload = function(ev) {
+                            divImagen.innerHTML = `<img src="${ev.target.result}" alt="Melamina">`;
+                        };
+                        reader.readAsDataURL(file);
+                    }
+                    this.value = '';
+                });
+
+                const btnDelete = card.querySelector('.btn-delete');
+                btnDelete.addEventListener('click', function() {
+                    card.remove();
+                });
+
+                return card;
+            }
+
+            const categoriasIniciales = {
+                'grid-primadera': ['PARMA', 'TURIN', 'ROMA', 'SALERNO', 'AMALFI', 'MERANO'],
+                'grid-madeofi': ['Blanco', 'Gris'],
+                'grid-tablareshispanos': [],
+                'grid-vesto': [],
+                'grid-duratex': [],
+                'grid-herrajes': []
+            };
+
+            for (const [gridId, nombres] of Object.entries(categoriasIniciales)) {
+                const grid = document.getElementById(gridId);
+                if (grid) {
+                    nombres.forEach(nombre => {
+                        const card = crearTarjetaMelamina();
+                        card.querySelector('.melamina-nombre').value = nombre;
+                        grid.appendChild(card);
+                    });
+                }
+            }
+
+            document.querySelectorAll('.btn-add').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const targetId = this.dataset.target;
+                    const grid = document.getElementById(targetId);
+                    if (grid) {
+                        const card = crearTarjetaMelamina();
+                        grid.appendChild(card);
+                    }
+                });
+            });
+
+            // ========== ACORDEÓN PARA DISEÑOS Y CATÁLOGOS ==========
+            const disenoTitulos = document.querySelectorAll('.diseno-titulo');
+            disenoTitulos.forEach(titulo => {
+                titulo.addEventListener('click', function() {
+                    const item = this.parentElement;
+                    item.classList.toggle('activo');
+                });
+            });
+        })();
+    </script>
+</body>
+</html>
